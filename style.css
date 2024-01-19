@@ -259,3 +259,166 @@ body{
     font-size: 34px;
     color: #fff;
 }
+
+footer{
+    position: relative;
+    background: #1c1c1c;
+    padding: 80px 50px 40px;
+    margin-top: 100px;
+}
+
+footer .start{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    background-color: #ffb742;
+    padding: 30px 25px;
+    border-radius: 15px;
+    width: 70%;
+    top: -16px;
+    left: 15% -16%;
+}
+
+footer .start p{
+    font-size: 13px;
+    width: 35%;
+}
+
+footer .start button{
+    background: transparent;
+    border: 1px solid #000;
+    cursor: pointer;
+    padding: 8px 20px;
+    border-radius: 100px;
+    transition: all 0.3s ease;
+}
+
+footer .start button:hover{
+    background-color: #fff;
+    border-color: #fff;
+}
+
+footer .cols{
+    display: flex;
+    align-items: start;
+}
+
+footer .cols .about-cols{
+    flex: 3;
+}
+
+footer .cols .about-cols h3{
+    color: #ffb742;
+    margin-bottom: 20px;
+}
+
+footer .cols .about-cols p{
+    color: #ccc;
+    font-size: 13px;
+}
+
+footer .cols .links-col{
+    flex: 3;
+}
+
+footer .cols .links-col a{
+    display: block;
+    text-decoration: none;
+    color: #7b7b7b;
+    font-size: 14px;
+    line-height: 26px;
+    transition: color 0.3s ease;
+}
+
+footer .cols .links-col a:hover{
+    color: #ffb742;
+}
+
+@media screen and (max-width: 1100px){
+    .guarantee{
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .guarantee .item{
+        flex-basis: 49%;
+    }
+
+    .skills{
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .skills .left{
+        width: 500px;
+    }
+
+    .skills .left .info h3{
+        font-size: 22px;
+    }
+
+    .skills .left .info p{
+        font-size: 12px;
+    }
+
+    footer{
+        margin-top: 150px;
+    }
+
+    footer .start{
+        width: 90%;
+        left: 5%;
+        top: -20px;
+    }
+
+    footer .cols{
+        flex-wrap: wrap;
+    }
+
+    footer .cols .about-cols{
+        flex-basis: 50%;
+    }
+
+    footer .cols .links-col{
+        flex-basis: 50%;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .navbar button{
+        display: none;
+    }
+
+    .main h4{
+        font-size: 24px;
+    }
+
+    .main p.title{
+        font-size: 36px;
+    }
+
+    .main.subtitle{
+        font-size: 14px;
+    }
+
+    .guarantee .item{
+        flex-basis: 100%;
+    }
+
+    .about{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    
+    .navbar{
+        justify-content: center;
+    }
+
+    .navbar h2{
+        display: none;
+    }
+}
