@@ -421,4 +421,86 @@ footer .cols .links-col a:hover{
     .navbar h2{
         display: none;
     }
+
+    .navbar ul li a{
+        font-size: 14px;
+    }
+
+    .main{
+        margin-top: 50px;
+        height: 320px;
+        justify-content: start;
+    }
+
+    .main h4{
+        font-size: 20px;
+    }
+
+    .main p.title{
+        font-size: 28px;
+    }
+
+    .main p.subtitle{
+        font-size: 12px;
+    }
+
+    .main img{
+        margin-top: 40px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .skills{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .skills .right{
+        justify-content: space-between;
+    }
+
+    .skills .right .info h3{
+        font-size: 20px;
+    }
+
+    footer .start{
+        top: -8%;
+    }
+
+    footer .start p{
+        display: none;
+    }
+
+    footer .cols .about-cols{
+        flex-basis: 100%;
+        margin-bottom: 40px;
+    }
+
+    footer .cols .links-col{
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+
+    footer .cols .news-cols{
+        flex-basis: 100%;
+    }
+}
+
+@media screen and (max-width: 499px){
+
+    .main p.title{
+        font-size: 18px;
+    }
+
+    .main p.subtile{
+        font-size: 10px;
+    }
+    
+    .guarantee .item .info h3{
+        font-size: 12px;
+    }
+
+    .guarantee .item .info p{
+        font-size: 12px;
+    }
 }
