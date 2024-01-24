@@ -63,6 +63,34 @@ body{
     background-color: #fb8c00;
 }
 
+.resume-btn{
+    background: #ffb742;
+    padding: 6px 30px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.resume-btn:hover{
+    background-color: #fb8c00;
+}
+
+.git-btn{/* might not use */
+    background: #ffb742;
+    padding: 6px 30px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.git-btn:hover{
+    background-color: #fb8c00;
+}
+
 .main{
     height: 640px;
     display: flex;

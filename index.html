@@ -14,10 +14,10 @@
             <h2>Matthew Carter</h2>
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="#">Skills</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Contact</a></li>
-                <li><a href="#">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="https://github.com/Matt-lightning?tab=repositories">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#about">About</a></li>
             </ul>
             <button class="hire-btn">Hire Me</button><!--Might not use-->
         </div>
@@ -64,18 +64,18 @@
 
         <h5 class="seprator">Who I Am</h5>
 
-        <div class="about">
+        <div class="about" id="about">
             <img src="professionalme.jpg">
             <div class="info">
                 <h3>About Me</h3>
                 <p>FIll In</p>
-                <button class="hire-btn">Hire Me</button><!--Maybe Resume-->
+                <button class="resume-btn" onclick="openDocument()">Resume</button><!--Maybe Resume-->
             </div>
         </div>
 
         <h5 class="seprator">My Skills</h5>
 
-        <div class="skills">
+        <div class="skills" id="skills">
             <div class="left">
                 <div class="info">
                     <h3>What My Programming Skills Included?</h3>
@@ -83,7 +83,7 @@
                         Fill In
                     </p>
                 </div>
-                <button class="hire-btn">Hire Me</button>
+                <a href="https://github.com/Matt-lightning?tab=repositories" target="_blank"><button class="git-btn">Github</button></a>
             </div>
 
             <div class="right">
@@ -116,7 +116,7 @@
         </div>
 
         <footer>
-            <div class="start">
+            <div class="start" id="contact">
                 <h3>Want to get in Touch?</h3>
                 <p>Fill In</p>
                 <button onclick="copyToClipboard('mattcart2022@gmail.com')">Email Me</button>
@@ -131,10 +131,10 @@
                 <div class="links-col">
                     <h4>Useful Links</h4>
                     <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Skills</a>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
                     <a href="https://github.com/Matt-lightning?tab=repositories">Portfolio</a>
-                    <a href="#">Contact</a>
+                    <a href="#Contact">Contact</a>
                 </div>
 
                 <div class="links-col">
