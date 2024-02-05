@@ -15,7 +15,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
 });
 
 function openDocument(){
-    var Document = 'Matthew_Resume_2024_v2.pdf';
+    var Document = 'Matthew_Resume_2024_v3.pdf';
 
     window.open(Document, '_blank');
 }
