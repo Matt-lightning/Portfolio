@@ -8,14 +8,23 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
 
-        document.querySelector(this.getAttribute('hef')).scrollIntoView({
-            behavior: 'smooth'
+        const targetId = this.getAttribute('href').substring(1);
+        const targetElement = document.getElementById(targetId);
+
+        if(targetElement){
+            window.scrollTo({
+                top: targetElement.offsetTop,
+                behavior: 'smooth'
+            });
+        }
+
+        
         });
     });
-});
 
 function openDocument(){
     var Document = 'Matthew_Resume_2024_v3.pdf';
 
     window.open(Document, '_blank');
 }
+

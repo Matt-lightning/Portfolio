@@ -304,12 +304,12 @@ footer .start{
     padding: 30px 25px;
     border-radius: 15px;
     width: 70%;
-    top: -16px;
-    left: 15% -16%;
+    top: -16%;
+    left: 15%;
 }
 
 footer .start p{
-    font-size: 13px;
+    font-size: 11px;
     width: 35%;
 }
 
@@ -348,6 +348,11 @@ footer .cols .about-cols p{
 
 footer .cols .links-col{
     flex: 3;
+}
+
+footer .cols .links-col h4, footer .cols .news-col h4{
+    color: #fff;
+    margin-bottom: 20px;
 }
 
 footer .cols .links-col a{
